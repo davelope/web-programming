@@ -1,0 +1,20 @@
+<script type="text/JavaScript">
+
+    var angka1 = 10;
+    
+    var angka2 = angka1
+    var jumlah =  angka1 += 5;
+    var kurang = angka1 -= 2;
+    var kali = angka1 *= 2;
+    var bagi = angka1 /= 13;
+
+//seluruh variable assignment bersifat permanen    
+    document.write(angka2);document.write("<br />");
+    document.write(jumlah);document.write("<br />");
+    document.write(kurang);document.write("<br />");
+
+    document.write(kali);document.write("<br />");
+    document.write(bagi);document.write("<br />");
+
+    //modulus juga bisa
+    </script>
