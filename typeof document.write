@@ -1,0 +1,17 @@
+<script type="text/JavaScript">
+    
+    var string = "Jack" ;
+    var numbers = 100 ;
+    var trues = true ;
+    var arrays = ["Jack","Budi"]
+    var arrays2 = {nama:"Susi",umur:45}
+
+    document.write(typeof(string)); document.write("<br />");
+    document.write(typeof(numbers)); document.write("<br />");
+    document.write(typeof(trues)); document.write("<br />");
+    document.write(typeof(arrays)); document.write("<br />");
+    document.write(typeof(arrays2)); document.write("<br />");
+    document.write(arrays2["nama"]); document.write("<br />");
+    document.write(arrays2["umur"]); document.write("<br />");
+    document.write(arrays); document.write("<br />");
+</script>
