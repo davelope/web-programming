@@ -1,0 +1,18 @@
+<script type="text/JavaScript">
+
+var true1 = true ; false1 = false;
+var andd = true1 && false1;
+var orr = true1 || false1;
+var nott = !(true1 == false1);
+
+document.write(andd) ;document.write("<br />") //false
+document.write(orr) ;document.write("<br />") //true    
+document.write(nott) ;document.write("<br />") //true
+
+/*<script type="text/JavaScript">
+
+document.write("<br />")
+
+<//script>*/
+
+</script>
