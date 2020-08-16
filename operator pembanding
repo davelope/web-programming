@@ -1,0 +1,20 @@
+<script type="text/JavaScript">
+
+    var angka1 = 10; var angka2 = 10; var angka3 = "10"; var angka4 = 13;
+    
+    document.write(angka1 == angka2); document.write("<br />") //true
+    document.write(angka1 == angka3); document.write("<br />") //true
+    document.write(angka1 === angka3); document.write("<br />") //false, karena value sama, tapi beda tipe
+    document.write(angka1 != angka4); document.write("<br />") //true
+    // !== tidak sama value dan tipenya
+    
+    document.write(angka1 > angka4); document.write("<br />") //false
+    document.write(angka1 < angka4); document.write("<br />") //true
+
+    // >=
+    // <=
+    // ? ternary operator belum diulik
+
+
+
+    </script>
