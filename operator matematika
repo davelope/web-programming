@@ -1,0 +1,29 @@
+<script type="text/JavaScript">
+
+var angka1 = 10; var angka2 = 2; var angka3 = 5;
+
+var penjumlahan = angka1 + angka2; 
+var pengurangan = angka1 - angka2;
+var perkalian = angka1 * angka2;
+var pembagian = angka1 / angka2;
+var modulus = angka1 % angka2;
+var increm = ++angka1;
+var decrem = --angka2;
+var eksp = angka3**2;
+
+document.write(penjumlahan); document.write("<br />");
+document.write(pengurangan); document.write("<br />");
+
+document.write(perkalian); document.write("<br />");
+document.write(pembagian); document.write("<br />");
+
+document.write(modulus); document.write("<br />");
+document.write(eksp); document.write("<br />");
+
+//increment dan decrement itu sifatnya permanen
+document.write(increm); document.write("<br />");
+document.write(angka1); document.write("<br />"); //menunjukkan bahwa angka1 tidak berubah
+
+document.write(decrem); document.write("<br />");
+
+</script>
