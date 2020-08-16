@@ -26,4 +26,11 @@ document.write(angka1); document.write("<br />"); //menunjukkan bahwa angka1 tid
 
 document.write(decrem); document.write("<br />");
 
+//penggabungan string
+var mobil = "avanza";
+var jumlah = 10;
+
+
+document.write("Mobil " + mobil + " saya, ada " + jumlah + ".");
+
 </script>
