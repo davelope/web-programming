@@ -1,0 +1,23 @@
+<div id="data"></div>
+<script>
+function kalikanAngka(angka1, angka2)
+{
+    return angka1*angka2; 
+}
+console.log(kalikanAngka(5,10));
+document.getElementById("data").innerHTML=kalikanAngka(5,10);
+</script>
+
+<br>
+
+<div id="data1"></div>
+<div id="data2"></div>
+<script>
+fungsiMobil();
+function fungsiMobil()
+{
+    var namaMobil = "Avanza";
+    document.getElementById('data1').innerHTML='Pemanggilan di dalam fungsi '+namaMobil;
+}
+    document.getElementById('data2').innerHTML='Pemanggilan di luar fungsi '+namaMobil;
+</script>
