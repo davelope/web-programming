@@ -1,0 +1,18 @@
+$(document).ready(function())
+{
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+//cara lain adalah dengan memanggil dari folder lokal
+//sebelumnya harus didownload dulu
+//kalau mau download yg Download the compressed production jQuery 3.1.1
+/*        <script src="assets/js/jquery.min.js">
+<//script>*/
+
+//di console browser, cek dengan ketikan $ dan Enter atau ketik jQuery juga bisa
+//kalau muncul ƒ (e,t){return new w.fn.init(e,t)}
+//artinya sudah berhasil loading jQuery
+//kalau mau download yg Download the compressed production jQuery 3.1.1
+//jQuery biasa disimpen di body, supaya ga berat
+</script>
+
+});
+
