@@ -1,0 +1,66 @@
+<script>
+var lampu=true;
+if(lampu)
+{
+console.log("Lampu Menyala");
+}
+</script>
+
+<br>
+
+<script>
+var lampu=false;
+if(lampu)
+{
+    console.log("Lampu Menyala");
+}
+else
+{
+    console.log("Lampu Padam");   
+}
+</script>
+
+<br>
+
+<script>
+    var lampu="kuning";
+    if(lampu=='merah')
+    {
+        console.log("Lampu Merah");
+    }
+    else if(lampu=='kuning')
+    {
+        console.log("Lampu Kuning");
+    }
+    else if(lampu=='hijau')
+    {
+        console.log("Lampu Hijau");
+    }
+    else
+    {
+        console.log("Lampu Padam");
+    }
+    </script>
+
+<br>
+
+<script>
+    var lampu="hijau";
+    switch(lampu)
+    {
+    case "merah" :
+        console.log("Lampu Merah");
+        document.getElementById("data").innerHTML="Lampu Merah";
+    break;
+    case "kuning":
+        console.log("Lampu Kuning");
+        document.getElementById("data").innerHTML="Lampu Kuning"; 
+        break;
+    case "hijau":
+        console.log("Lampu Hijau");
+        document.getElementById("data").innerHTML="Lampu Hijau"; 
+        break;
+    default:
+        text= "Lampu Padam";
+    }
+</script>
