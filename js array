@@ -1,0 +1,67 @@
+<div id="divid"></div>
+<script>
+var mobil = ["Avanza", "Agya", "Ayla"];
+mobil[0]="Fortuner";
+console.log(mobil[0]); 
+document.getElementById('divid').innerHTML=mobil[2];
+console.log(mobil.length);
+console.log(mobil.length - 1);
+console.log(mobil.toString());
+console.log(mobil.join("."));
+mobil.pop(); //popping data terakhir
+console.log(mobil);
+//mobil.pop["Fortuner"];
+console.log(mobil);
+mobil.push("Kijang");
+console.log(mobil);
+</script>
+
+<br>
+
+<script>
+
+var mobilMurah = ["Kia"];
+var mobilMahal = ["Mazda"];
+var mobilku = mobilMurah.concat(mobilMahal);
+console.log(mobilku);
+
+var mobili = ["A","B","C"];
+var teks, i;
+teks ="<ul>";
+for(i=0; i <mobili.length; i++)
+{
+    teks += "<li>"+mobili[i]+"</li>";
+}
+teks +="</ul>";
+document.getElementById("divid").innerHTML = teks;
+
+</script>
+
+<br>
+
+<script>
+    var mobil = ["Avanza", "Agya", "Ayla","Koo"];
+    var teks, i;
+    teks ="<ul>";
+    mobil.forEach(fungsiMobil)
+    teks += "</ul>";
+    function fungsiMobil(value)
+    {
+        teks += "<li>"+value+"</li>";
+    }
+    document.getElementById("divid").innerHTML = teks;
+    </script>
+
+    <br>
+
+    <script>
+        var nomor1 = [4, 9, 16, 25];
+        var nomor2 = nomor1.map(kaliDua);
+        
+        function kaliDua(value,index,array) 
+        {
+            return value * 2;
+        
+        }
+        console.log(nomor2);
+        </script>
